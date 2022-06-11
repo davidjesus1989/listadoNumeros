@@ -1,4 +1,4 @@
-/*
+
 package ListadoNumeros;
 
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Main2 {
 
     static Scanner leer = new Scanner (System.in);
-    private static Iterable<Integer> nums_par_impar;
+
     
    public static void main(String[] args) { 
   
@@ -36,7 +36,7 @@ for (Integer numero:listado_numeros){
         
     }
 }
-       System.out.println("los numeros mayores a 5 son" + aux_contador);
+       System.out.println("los números mayores a 5 son: " + aux_contador);
 
 
 List<Integer> nums_par_impar = new ArrayList<>();
@@ -57,28 +57,8 @@ for (Integer numero : nums_par_impar){
     }
 }
        
-       System.out.println("la cantidad de numeros pares es :" + aux_par);  
-       System.out.println("la cantidad de numeros impares es :" + aux_impar);
+       System.out.println("la cantidad de números pares es : " + aux_par);  
+       System.out.println("la cantidad de números impares es : " + aux_impar);
    }}
  
-       List<Integer> numeros = new ArrayList();
-       System.out.println("digite la cantidad de numeros que quiere agregar a la lista");
-       Integer cantidad_numeros = leer.nextInt();
-       Integer aux_par = 0;
-       Integer aux_impar = 0;
-       
-       for (int i = 0; i < cantidad_numeros; i++){
-           System.out.println("" + i);
-        }
-       for (Integer numero : nums_par_impar){
-       if(numero % 2 == 0){
-        aux_par = aux_par + 1;
-    }  else {
-        aux_impar = aux_impar + 1;
-    }
-}
-       
-       System.out.println("la cantidad de numeros pares es :" + aux_par);  
-       System.out.println("la cantidad de numeros impares es :" + aux_impar);
-   }}
-*/
+    
